@@ -194,19 +194,10 @@ navMobileList.addEventListener('click', e => {
         radioBtn.checked = false;
     }
 })
-/*
-window.setTimeout(() => {
-    if(window.onload) { 
-        console.log('YEs');
-    } else {
-        console.log('NOPE');
-    }
-}, 800);
-*/
+
 const preloader = document.querySelector('.preloader');
 console.log(preloader);
 window.addEventListener('load', () => {
     console.log('Loaded');
-    preloader.style.opacity = '0';
-    preloader.style.visibility = 'hidden';
+    preloader.classList.add('preloader__hidden');
 })

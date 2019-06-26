@@ -1,0 +1,135 @@
+/* 1216px */
+@media only screen and (max-width: 76em) {
+
+    html {
+        font-size: 50%;
+    }
+}
+
+/* 1000px */
+@media only screen and (max-width: 62.5em) {
+    
+    .headline__main {
+        font-size: 9rem;
+    }
+
+    .headline__circle {
+        width: 11rem;
+        height: 11rem;
+        line-height: 11rem;
+    }
+}
+
+/* 900px */
+@media only screen and (max-width: 56.25em) {
+
+    .headline__main {
+        font-size: 8rem;
+    }
+
+    .headline__secondary {
+        font-size: 2.5rem;
+    }
+
+    .headline__secondary::after {
+        width: 95%;
+    }
+}
+
+/* 816px */
+@media only screen and (max-width: 51em) {
+
+    .headline {
+        width: 70%;
+    }
+
+    .headline__main {
+        font-size: 9rem;
+    }
+
+    .headline__circle {
+        width: 9rem;
+        height: 9rem;
+        line-height: 9rem;
+    }
+
+}
+
+/* 736px */
+@media only screen and (max-width: 46em) {
+
+    .header {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 10%, rgba(0,0,0,0)), 
+	    url(img/head__img-min.jpg);
+    }
+
+    html {
+        font-size: 43.75%;
+    }
+
+    .scroll-down {
+        display: none;
+    }
+}
+
+/* 640px */
+@media only screen and (max-width: 40em) {
+    .navigation-header {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: block;
+    }
+
+    .scroll-down--mobile {
+        display: block;
+    }
+
+}
+/* 604px */
+@media only screen and (max-width: 37.75em) {
+
+    .headline {
+        width: 70%;
+    }
+    
+    .headline__main {
+        margin-bottom: 1.5rem;
+    }
+
+    .content__poem--text,
+    .content__poem--text p {
+        font-size: 2.1rem;
+    }
+
+    .author {
+        justify-content: center;
+    }
+
+    .contact-me__icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .scroll-down {
+        display: none;
+    }
+
+    .scroll-down--mobile {
+        display: block;
+    }
+}
+
+/* 320px */
+@media only screen and (max-width: 20em) {
+
+    .navigation-mobile__list {
+        width: 80%;
+    }
+
+    .author__portrait {
+        flex-basis: 14rem;
+        height: 14rem;
+    }
+}
